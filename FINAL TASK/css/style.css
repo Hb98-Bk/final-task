@@ -77,7 +77,7 @@ position: absolute;
 
 
 .card {
-  overflow: hidden; /* عشان الصورة متطلعش برا الكارت */
+  overflow: hidden; 
 }
 
 .card-img-top {
@@ -297,7 +297,8 @@ footer a.red:hover {
   .cb-white { background: white; border: 2px solid #999; }
 
   input[type="checkbox"]:checked {
-    outline: 2px solid #333;   /* يدي إطار يوضح الاختيار */
+    outline: 2px solid #333;        
     outline-offset: 2px;
   }
+
 
