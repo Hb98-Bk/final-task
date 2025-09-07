@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"/>
+
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+          <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+  
+  <nav class="navbar navbar-expand-lg bg-white border-bottom shadow-sm sticky-top">
+    <div class="container-fluid">
+      
+    
+      <a class="navbar-brand fw-bold" href="index.html">
+        <img src="img/Screenshot 2025-08-27 163524.png" alt="">
+      </a>
+
+      
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+    
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="d-flex align-items-center w-100 gap-2">
+          
+        <i class="fa-solid fa-phone"></i>
+          <a href="shop.html" class="nav-link active p-0 red">Contact us 24/7 (+92) 3942 7879</a>
+
+          
+          <form class="">
+            <div class="input-group">
+              <select class="form-select" style="max-width: 180px;">
+                <option selected >All Categories</option>
+                <option>Auto Part</option>
+                <option>Accessories</option>
+               <option>car electronic</option>
+                <option>Equpments</option>
+                <option>light</option>
+                <option>Tires</option>
+                <option>wheels</option>
+                <option>Bags$ cases</option>
+                <option>BB Creams</option>
+                <option>Body$bath</option>
+                <option>Tools</option>
+                <option>Hair Care</option>
+                <option>Lip stick</option>
+                <option>Toner</option>
+                <option>Mask</option>
+                <option>nail care</option>
+                <option>Driss</option>
+                <option>shirts</option>
+                <option>skirts</option>
+                <option>tops</option>
+                <option>Book case</option>
+                <option>beauty$health</option>
+                <option>beauty$health</option>
+                <option>beauty$health</option>
+                <option>beauty$health</option>
+                <option>beauty$health</option>
+                <option>beauty$health</option>
+                <option>beauty$health</option>
+                <option>beauty$health</option>
+                <option>beauty$health</option>
+                <option>beauty$health</option>
+                <option>beauty$health</option>
+                <option>beauty$health</option>
+                <option>beauty$health</option>
+
+              </select>
+              <input type="text" class="form-control" placeholder="Search for products">
+              <button class="btn btn-dark" type="submit">
+                <i class="fa-brands fa-sistrix"></i>
+              </button>
+            </div>
+          </form>
+
+          
+          <ul class="navbar-nav d-flex align-items-center ">
+            
+            <li class="nav-item dropdown ms-3">
+              <a class="nav-link dropdown-toggle red" href="shop.html" role="button" data-bs-toggle="dropdown">
+                English
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item red " href="shop.html">Espanol</a></li>
+                <li><a class="dropdown-item red" href="shop.html">Arabic</a></li>
+              </ul>
+            </li>
+
+            
+            <li class="nav-item dropdown me-3">
+              <a class="nav-link dropdown-toggle red" href="shop.html" role="button" data-bs-toggle="dropdown">
+                USD
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item red" href="shop.html">EGP</a></li>
+                <li><a class="dropdown-item red" href="shop.html">KSA</a></li>
+              </ul>
+            </li>
+
+            
+            <li class="nav-item">
+              <a href = "shop.html" class="  text-dark text-decoration-none red">Account</a>
+            </li>
+          </ul>
+<a href="shop.html"><i class="fa-solid fa-user red"></i></a>
+<a href="shop.html"><i class="fa-solid fa-cart-shopping ms-1 red"></i></a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg bg-white border-bottom">
+    <div class="container">
+      
+      <!-- shop by categories -->
+      <a href="shop.html" class="red btn btn-light border me-3">
+        <i class="fa-solid fa-bars me-2"></i> SHOP BY CATEGORIES
+      </a>
+
+      <!-- navbar links -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainNavbar">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link red" href="shop.html">Homepages</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle red" href="shop.html" >Categories</a>
+           
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle red" href="#" data-bs-toggle="dropdown">Products</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item red" href="shop.html">Sample Product</a></li>
+              <li><a class="dropdown-item red" href="shop.html">Variable – Label Attribute</a></li>
+              <li><a class="dropdown-item red" href="shop.html">Variable – Dropdown Attribute</a></li>
+              <li><a class="dropdown-item red" href="shop.html">Variable – Color Swatch</a></li>
+              <li><a class="dropdown-item red" href="shop.html">Variable – Variation Thumbnail</a></li>
+              <li><a class="dropdown-item red" href="shop.html">Group product</a></li>
+              <li><a class="dropdown-item red" href="shop.html">
+External product</a></li>
+              <li><a class="dropdown-item red" href="shop.html">Vertical thumbnail </a></li>
+              <li><a class="dropdown-item red" href="shop.html">
+Horizontal thumbnail</a></li>
+              <li><a class="dropdown-item red" href="shop.html">
+Summary scrolling</a></li>
+              <li><a class="dropdown-item red" href="shop.html">Flash sale</a></li>
+              <li><a class="dropdown-item red" href="shop.html">Video + 360 degree</a></li>
+
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle red" href="shop.html" data-bs-toggle="dropdown">Pages</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item red" href="connect us.html">About us</a></li>
+              <li><a class="dropdown-item red" href="connect us.html">Contact us</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link red" href="connect us.html">About us</a></li>
+          <li class="nav-item"><a class="nav-link red" href="shop.html">Blog</a></li>
+          <li class="nav-item"><a class="nav-link red" href="shop.html"><i class="fa-solid fa-ticket"></i> Best Discount</a></li>
+        </ul>
+
+        <!-- recently viewed -->
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle red" href="shop.html" data-bs-toggle="dropdown">Recently viewed</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item red" href="shop.html">Product A</a></li>
+              <li><a class="dropdown-item red" href="shop.html">Product B</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+  <div class="container my-5">
+  <div class="row g-0">
+      <h3 class="mb-5">Shop</h3>
+
+    <!-- Sidebar Filters -->
+    <aside class="col-md-3 pe-3">
+      
+    <!-- Colors -->
+<!-- Colors -->
+<h6 class="fw-bold mb-3">Colors</h6>
+<ul class="list-unstyled mb-4">
+  <li><input type="checkbox" class="me-2 cb-black"> Black (95)</li>
+  <li><input type="checkbox" class="me-2 cb-blue"> Blue (11)</li>
+  <li><input type="checkbox" class="me-2 cb-red"> Red (15)</li>
+  <li><input type="checkbox" class="me-2 cb-white"> White (34)</li>
+</ul>
+
+
+
+      <!-- Brands -->
+      <h6 class="fw-bold mb-3">Brands</h6>
+      <input type="text" class="form-control form-control-sm mb-2" placeholder="Search brands...">
+
+      <div style="max-height: 200px; overflow-y: auto;" class="mb-4">
+        <ul class="list-unstyled small">
+          <li><input type="checkbox" class="me-2">Amazon (8)</li>
+          <li><input type="checkbox" class="me-2">Apple (11)</li>
+          <li><input type="checkbox" class="me-2">Ashley (3)</li>
+          <li><input type="checkbox" class="me-2">Asus (3)</li>
+          <li><input type="checkbox" class="me-2">Basett (5)</li>
+          <li><input type="checkbox" class="me-2">Cerave (2)</li>
+          <li><input type="checkbox" class="me-2">Clinique (4)</li>
+          <li><input type="checkbox" class="me-2">Dannon (7)</li>
+          <li><input type="checkbox" class="me-2">Dell (1)</li>
+          <li><input type="checkbox" class="me-2">Eucerin (2)</li>
+          <li><input type="checkbox" class="me-2">Ford (5)</li>
+          <li><input type="checkbox" class="me-2">Freedom (4)</li>
+          <li><input type="checkbox" class="me-2">GAP (4)</li>
+          <li><input type="checkbox" class="me-2">Garda (4)</li>
+          <li><input type="checkbox" class="me-2">Guess (4)</li>
+          <li><input type="checkbox" class="me-2">Haworth (2)</li>
+          <li><input type="checkbox" class="me-2">HP (5)</li>
+          <li><input type="checkbox" class="me-2">Huawei (3)</li>
+          <li><input type="checkbox" class="me-2">Huyndai (3)</li>
+          <li><input type="checkbox" class="me-2">Intel (1)</li>
+          <li><input type="checkbox" class="me-2">Jeep (8)</li>
+          <li><input type="checkbox" class="me-2">Kia (1)</li>
+          <li><input type="checkbox" class="me-2">Kronheims (4)</li>
+          <li><input type="checkbox" class="me-2">L’Oréal Paris (6)</li>
+          <li><input type="checkbox" class="me-2">La Roche-Posay (3)</li>
+          <li><input type="checkbox" class="me-2">Lancome (4)</li>
+          <li><input type="checkbox" class="me-2">Lenovo (2)</li>
+          <li><input type="checkbox" class="me-2">LG (4)</li>
+          <li><input type="checkbox" class="me-2">Logitech (6)</li>
+          <li><input type="checkbox" class="me-2">LV (3)</li>
+          <li><input type="checkbox" class="me-2">Max (6)</li>
+          <li><input type="checkbox" class="me-2">Maybelline (6)</li>
+          <li><input type="checkbox" class="me-2">Michelin (4)</li>
+          <li><input type="checkbox" class="me-2">MLB (1)</li>
+          <li><input type="checkbox" class="me-2">Nike (4)</li>
+          <li><input type="checkbox" class="me-2">Nissan (5)</li>
+          <li><input type="checkbox" class="me-2">Olay (3)</li>
+          <li><input type="checkbox" class="me-2">Oneplus (1)</li>
+          <li><input type="checkbox" class="me-2">Oppo (2)</li>
+          <li><input type="checkbox" class="me-2">Ozdesign (4)</li>
+          <li><input type="checkbox" class="me-2">PlayStation (5)</li>
+          <li><input type="checkbox" class="me-2">Realme (3)</li>
+          <li><input type="checkbox" class="me-2">Samsung (7)</li>
+          <li><input type="checkbox" class="me-2">SK-II (2)</li>
+          <li><input type="checkbox" class="me-2">Toyota (8)</li>
+          <li><input type="checkbox" class="me-2">Vichy (4)</li>
+          <li><input type="checkbox" class="me-2">Vivo (0)</li>
+          <li><input type="checkbox" class="me-2">Volvo (5)</li>
+        </ul>
+      </div>
+<!-- Price -->
+<h6 class="fw-bold mb-3">Price</h6>
+<ul class="list-unstyled mb-4">
+  <li><input type="checkbox" class="me-2"> Under $50</li>
+  <li><input type="checkbox" class="me-2"> $50 - $100</li>
+  <li><input type="checkbox" class="me-2"> $100 - $200</li>
+  <li><input type="checkbox" class="me-2"> Above $200</li>
+</ul>
+
+<!-- Size -->
+<h6 class="fw-bold mb-3">Size</h6>
+<div style="max-height:200px; overflow-y:auto;" class="mb-4">
+  <ul class="list-unstyled mb-0">
+    <li><input type="checkbox" class="me-2"> US 8 (1)</li>
+    <li><input type="checkbox" class="me-2"> US 9 (1)</li>
+    <li><input type="checkbox" class="me-2"> US 10 (1)</li>
+    <li><input type="checkbox" class="me-2"> US 11 (1)</li>
+    <li><input type="checkbox" class="me-2"> US 12 (1)</li>
+    <li><input type="checkbox" class="me-2"> XS (5)</li>
+    <li><input type="checkbox" class="me-2"> S (7)</li>
+    <li><input type="checkbox" class="me-2"> M (10)</li>
+    <li><input type="checkbox" class="me-2"> L (10)</li>
+    <li><input type="checkbox" class="me-2"> XL (9)</li>
+    <li><input type="checkbox" class="me-2"> XXL (7)</li>
+    <li><input type="checkbox" class="me-2"> 3XL</li>
+  </ul>
+</div>
+
+    </aside>
+
+    <!-- Products Section -->
+    <section class="col-md-9">
+      <!-- Top Buttons -->
+      <div class="mb-4">
+        <div class="d-flex flex-wrap gap-2">
+          <button class="btn btn-light btn-sm">Autopart</button>
+          <button class="btn btn-light btn-sm">Beauty & Health</button>
+          <button class="btn btn-light btn-sm">Electronic</button>
+          <button class="btn btn-light btn-sm">Fashion</button>
+          <button class="btn btn-light btn-sm">Game Accessories</button>
+          <button class="btn btn-light btn-sm">Home & Decor</button>
+          <button class="btn btn-light btn-sm">Laptop & Computer</button>
+          <button class="btn btn-light btn-sm">Phone & Tablet</button>
+        </div>
+      </div>
+
+      <!-- Products Grid -->
+      <div class="row g-0">
+        
+        <div class="col-md-3 col-sm-6">
+          <div class="card text-center h-100 border">
+            <span class="badge bg-danger position-absolute m-2">HOT</span>
+            <a href="applewatch.html"><img src="img/electronic-14-2-300x300.jpg" class="card-img-top" ></a>
+            <div class="card-body p-2">
+<a href="applewatch.html" class="text-decoration-none text-dark red">
+  <p class="small mb-1">Apple Watch Series 9 GPS 45mm, Aluminum Case</p>
+</a>
+              <p class="fw-bold mb-0">$148</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+          <div class="card text-center h-100 border">
+            <span class="badge bg-success position-absolute m-2">-35%</span>
+            <a href="applewatch.html"><img src="img/electronic-14-2-300x300.jpg" class="card-img-top" ></a>
+            <div class="card-body p-2">
+<a href="applewatch.html" class="text-decoration-none text-dark red">
+  <p class="small mb-1">Apple Watch Series 9 GPS 45mm, Aluminum Case</p>
+</a>
+              <p class="fw-bold mb-0">$999 <span class="text-muted text-decoration-line-through small">$1536</span></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+          <div class="card text-center h-100 border">
+            <span class="badge bg-success position-absolute m-2">-35%</span>
+            <a href="applewatch.html"><img src="img/electronic-14-2-300x300.jpg" class="card-img-top" ></a>
+            <div class="card-body p-2">
+<a href="applewatch.html" class="text-decoration-none text-dark red">
+  <p class="small mb-1">Apple Watch Series 9 GPS 45mm, Aluminum Case</p>
+</a>
+              <p class="fw-bold mb-0">$999 <span class="text-muted text-decoration-line-through small">$1536</span></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+          <div class="card text-center h-100 border">
+            <span class="badge bg-success position-absolute m-2">-35%</span>
+            <a href="applewatch.html"><img src="img/electronic-14-2-300x300.jpg" class="card-img-top" ></a>
+            <div class="card-body p-2">
+<a href="applewatch.html" class="text-decoration-none text-dark red">
+  <p class="small mb-1">Apple Watch Series 9 GPS 45mm, Aluminum Case</p>
+</a>
+              <p class="fw-bold mb-0">$999 <span class="text-muted text-decoration-line-through small">$1536</span></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+          <div class="card text-center h-100 border">
+            <span class="badge bg-success position-absolute m-2">-35%</span>
+            <a href="applewatch.html"><img src="img/electronic-14-2-300x300.jpg" class="card-img-top" ></a>
+            <div class="card-body p-2">
+<a href="applewatch.html" class="text-decoration-none text-dark red">
+  <p class="small mb-1">Apple Watch Series 9 GPS 45mm, Aluminum Case</p>
+</a>
+              <p class="fw-bold mb-0">$999 <span class="text-muted text-decoration-line-through small">$1536</span></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+          <div class="card text-center h-100 border">
+            <span class="badge bg-success position-absolute m-2">-35%</span>
+            <a href="applewatch.html"><img src="img/electronic-14-2-300x300.jpg" class="card-img-top" ></a>
+            <div class="card-body p-2">
+<a href="applewatch.html" class="text-decoration-none text-dark red">
+  <p class="small mb-1">Apple Watch Series 9 GPS 45mm, Aluminum Case</p>
+</a>
+              <p class="fw-bold mb-0">$999 <span class="text-muted text-decoration-line-through small">$1536</span></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+          <div class="card text-center h-100 border">
+            <a href="applewatch.html"><img src="img/electronic-14-2-300x300.jpg" class="card-img-top" ></a>
+            <div class="card-body p-2">
+<a href="applewatch.html" class="text-decoration-none text-dark red">
+  <p class="small mb-1">Apple Watch Series 9 GPS 45mm, Aluminum Case</p>
+</a>
+              <p class="fw-bold mb-0">$572</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+          <div class="card text-center h-100 border">
+            <a href="applewatch.html"><img src="img/electronic-14-2-300x300.jpg" class="card-img-top" ></a>
+            <div class="card-body p-2">
+<a href="applewatch.html" class="text-decoration-none text-dark red">
+  <p class="small mb-1">Apple Watch Series 9 GPS 45mm, Aluminum Case</p>
+</a>
+              <p class="fw-bold mb-0">$123</p>
+            </div>
+          </div>
+        </div>
+
+
+ <div class="col-md-3 col-sm-6">
+          <div class="card text-center h-100 border">
+            <span class="badge bg-success position-absolute m-2">-35%</span>
+            <a href="applewatch.html"><img src="img/electronic-14-2-300x300.jpg" class="card-img-top" ></a>
+            <div class="card-body p-2">
+<a href="applewatch.html" class="text-decoration-none text-dark red">
+  <p class="small mb-1">Apple Watch Series 9 GPS 45mm, Aluminum Case</p>
+</a>
+              <p class="fw-bold mb-0">$999 <span class="text-muted text-decoration-line-through small">$1536</span></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+          <div class="card text-center h-100 border">
+            <span class="badge bg-success position-absolute m-2">-35%</span>
+            <a href="applewatch.html"><img src="img/electronic-14-2-300x300.jpg" class="card-img-top" ></a>
+            <div class="card-body p-2">
+<a href="applewatch.html" class="text-decoration-none text-dark red">
+  <p class="small mb-1">Apple Watch Series 9 GPS 45mm, Aluminum Case</p>
+</a>
+              <p class="fw-bold mb-0">$999 <span class="text-muted text-decoration-line-through small">$1536</span></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+          <div class="card text-center h-100 border">
+            <span class="badge bg-success position-absolute m-2">-35%</span>
+            <a href="applewatch.html"><img src="img/electronic-14-2-300x300.jpg" class="card-img-top" ></a>
+            <div class="card-body p-2">
+<a href="applewatch.html" class="text-decoration-none text-dark red">
+  <p class="small mb-1">Apple Watch Series 9 GPS 45mm, Aluminum Case</p>
+</a>
+              <p class="fw-bold mb-0">$999 <span class="text-muted text-decoration-line-through small">$1536</span></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+          <div class="card text-center h-100 border">
+            <span class="badge bg-success position-absolute m-2">-35%</span>
+            <a href="applewatch.html"><img src="img/electronic-14-2-300x300.jpg" class="card-img-top" ></a>
+            <div class="card-body p-2">
+<a href="applewatch.html" class="text-decoration-none text-dark red">
+  <p class="small mb-1">Apple Watch Series 9 GPS 45mm, Aluminum Case  </p>
+</a>
+              <p class="fw-bold mb-0">$999 <span class="text-muted text-decoration-line-through small">$1536</span></p>
+            </div>
+          </div>
+        </div>
+
+       
+
+      </div>
+    </section>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+ 
+<footer class="bg-dark text-light pt-5 ">
+  <div class="container-fluid">
+    <div class="row">
+      
+      <!-- Logo & Contact -->
+      <div class="col-md-3 mb-4 ">
+<img src="img/logo.png" class="w-25">     
+   <p class="mb-1"><i></i> 29 SE 2nd Ave, Miami<br> Florida 33131, United States</p>
+        <p class="mb-1"><i></i> info@example.com</p>
+       <a href="index.html" class="red text-decoration-none text-light"> <p class="fw-bold">(+92) 3942 7879</p></a>
+      </div>
+
+      <!-- Shopping -->
+      <div class="col-md-2 mb-4">
+        <h6 class="fw-bold">SHOPPING</h6>
+        <ul class="list-unstyled">
+         <li><a href="shop.html" class="text-decoration-none text-light red">Wishlist</a></li>
+       <li><a href="shop.html" class="text-decoration-none text-light red">Shop by Brand</a></li>
+         <li><a href="shop.html" class="text-decoration-none text-light red">Offers</a></li>
+        <li><a href="shop.html" class="text-decoration-none text-light red">Track Order</a></li>
+      <li><a href="shop.html" class="text-decoration-none text-light  red">Size Guide</a></li>
+        </ul>
+      </div>
+
+      <!-- Information -->
+      <div class="col-md-2 mb-4">
+        <h6 class="fw-bold">INFORMATION</h6>
+        <ul class="list-unstyled">
+          <li><a href="shop.html" class="text-decoration-none text-light red">Track Order</a></li>
+        <li><a href="shop.html" class="text-decoration-none text-light red">Shipping & Returns</a></li>
+         <li><a href="shop.html" class="text-decoration-none text-light red">About us</a></li>
+          <li><a href="shop.html" class="text-decoration-none text-light red">Help</a></li>
+         <li><a href="shop.html" class="text-decoration-none text-light red">Gift Cards</a></li>
+        </ul>
+      </div>
+
+      <!-- Account -->
+      <div class="col-md-2 mb-4">
+        <h6 class="fw-bold">ACCOUNT</h6>
+        <ul class="list-unstyled">
+          <li><a href="shop.html" class="text-decoration-none text-light red">Cart</a></li>
+        <li><a href="shop.html" class="text-decoration-none text-light red">My Account</a></li>
+         <li><a href="shop.html" class="text-decoration-none text-light red">My Orders</a></li>
+        <li><a href="shop.html" class="text-decoration-none text-light red">Wishlist</a></li>
+          <li><a href="shop.html" class="text-decoration-none text-light red">Affiliate Program</a></li>
+        </ul>
+      </div>
+
+    
+      <div class="col-md-3 mb-4">
+        <h6 class="fw-bold">Let’s keep in touch</h6>
+        <div class="input-group mb-3">
+          <input type="email" class="form-control" placeholder="Enter your email">
+          <button class="btn btn-outline-light" type="button"><i class="fa-regular fa-hand-point-up"></i></button>
+        </div>
+      </div>
+      </div>
+  
+
+ <div class="row text-center border-top border bottom-border-secondary pt-3 mt-3">
+      <div class="col-md-4 mb-3">
+        <p class="mb-0"> Didn't find what you were looking for? <a href="connect us.html" class="text-decoration-underline text-light  red">Contact Us</a></p>
+      </div>
+      <div class="col-md-4 mb-3">
+        <p class="mb-0"> How can we help you today? <a href="connect us.html" class="text-decoration-underline text-light  red">Help Center</a></p>
+    </div>
+      <div class="col-md-4 mb-3">      <p class="mb-0"> We’d love to hear what you think! <a href="connect us.html" class="text-decoration-none text-light  red">Give Feedback</a></p>
+      </div>
+    </div>
+
+    <!-- Copyright -->
+    <div class="row mt-3">
+      <div class="col-md-6">
+        <p class="small mb-0">Copyright © Merto. All Rights Reserved</p>
+      </div>
+      <div class="col-m-6 text-end">
+        <img src="img/Screenshot 2025-08-27 163524.png" alt="Visa" width="40" class="me-2">
+        <img src="img/Screenshot 2025-08-27 163524.png" alt="PayPal" width="40" class="me-2">
+        <img src="img/Screenshot 2025-08-27 163524.png" alt="Apple Pay" width="40" class="me-2">
+        <img src="img/Screenshot 2025-08-27 163524.png" alt="MasterCard" width="40" class="me-2">
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="js/script.js"></script>
+
+  </body>
+</html>

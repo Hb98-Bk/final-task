@@ -1,0 +1,1182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"/>
+
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+          <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+  
+  <nav class="navbar navbar-expand-lg bg-white border-bottom shadow-sm sticky-top">
+    <div class="container-fluid">
+      
+    
+      <a class="navbar-brand fw-bold" href="index.html">
+        <img src="img/Screenshot 2025-08-27 163524.png" alt="">
+      </a>
+
+      
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+    
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="d-flex align-items-center w-100 gap-2">
+          
+        <i class="fa-solid fa-phone"></i>
+          <a href="shop.html" class="nav-link active p-0 red">Contact us 24/7 (+92) 3942 7879</a>
+
+          
+          <form class="">
+            <div class="input-group">
+              <select class="form-select" style="max-width: 180px;">
+                <option selected >All Categories</option>
+                <option>Auto Part</option>
+                <option>Accessories</option>
+               <option>car electronic</option>
+                <option>Equpments</option>
+                <option>light</option>
+                <option>Tires</option>
+                <option>wheels</option>
+                <option>Bags$ cases</option>
+                <option>BB Creams</option>
+                <option>Body$bath</option>
+                <option>Tools</option>
+                <option>Hair Care</option>
+                <option>Lip stick</option>
+                <option>Toner</option>
+                <option>Mask</option>
+                <option>nail care</option>
+                <option>Driss</option>
+                <option>shirts</option>
+                <option>skirts</option>
+                <option>tops</option>
+                <option>Book case</option>
+                <option>beauty$health</option>
+                <option>beauty$health</option>
+                <option>beauty$health</option>
+                <option>beauty$health</option>
+                <option>beauty$health</option>
+                <option>beauty$health</option>
+                <option>beauty$health</option>
+                <option>beauty$health</option>
+                <option>beauty$health</option>
+                <option>beauty$health</option>
+                <option>beauty$health</option>
+                <option>beauty$health</option>
+                <option>beauty$health</option>
+
+              </select>
+              <input type="text" class="form-control" placeholder="Search for products">
+              <button class="btn btn-dark" type="submit">
+                <i class="fa-brands fa-sistrix"></i>
+              </button>
+            </div>
+          </form>
+
+          
+          <ul class="navbar-nav d-flex align-items-center ">
+            
+            <li class="nav-item dropdown ms-3">
+              <a class="nav-link dropdown-toggle red" href="shop.html" role="button" data-bs-toggle="dropdown">
+                English
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item red " href="shop.html">Espanol</a></li>
+                <li><a class="dropdown-item red" href="shop.html">Arabic</a></li>
+              </ul>
+            </li>
+
+            
+            <li class="nav-item dropdown me-3">
+              <a class="nav-link dropdown-toggle red" href="shop.html" role="button" data-bs-toggle="dropdown">
+                USD
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item red" href="shop.html">EGP</a></li>
+                <li><a class="dropdown-item red" href="shop.html">KSA</a></li>
+              </ul>
+            </li>
+
+            
+            <li class="nav-item">
+              <a href = "shop.html" class="  text-dark text-decoration-none red">Account</a>
+            </li>
+          </ul>
+<a href="shop.html"><i class="fa-solid fa-user red"></i></a>
+<a href="shop.html"><i class="fa-solid fa-cart-shopping ms-1 red"></i></a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg bg-white border-bottom">
+    <div class="container">
+      
+      <!-- shop by categories -->
+      <a href="shop.html" class="red btn btn-light border me-3">
+        <i class="fa-solid fa-bars me-2"></i> SHOP BY CATEGORIES
+      </a>
+
+      <!-- navbar links -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainNavbar">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link red" href="shop.html">Homepages</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle red" href="shop.html" >Categories</a>
+           
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle red" href="#" data-bs-toggle="dropdown">Products</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item red" href="shop.html">Sample Product</a></li>
+              <li><a class="dropdown-item red" href="shop.html">Variable – Label Attribute</a></li>
+              <li><a class="dropdown-item red" href="shop.html">Variable – Dropdown Attribute</a></li>
+              <li><a class="dropdown-item red" href="shop.html">Variable – Color Swatch</a></li>
+              <li><a class="dropdown-item red" href="shop.html">Variable – Variation Thumbnail</a></li>
+              <li><a class="dropdown-item red" href="shop.html">Group product</a></li>
+              <li><a class="dropdown-item red" href="shop.html">
+External product</a></li>
+              <li><a class="dropdown-item red" href="shop.html">Vertical thumbnail </a></li>
+              <li><a class="dropdown-item red" href="shop.html">
+Horizontal thumbnail</a></li>
+              <li><a class="dropdown-item red" href="shop.html">
+Summary scrolling</a></li>
+              <li><a class="dropdown-item red" href="shop.html">Flash sale</a></li>
+              <li><a class="dropdown-item red" href="shop.html">Video + 360 degree</a></li>
+
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle red" href="shop.html" data-bs-toggle="dropdown">Pages</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item red" href="connect us.html">About us</a></li>
+              <li><a class="dropdown-item red" href="connect us.html">Contact us</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link red" href="connect us.html">About us</a></li>
+          <li class="nav-item"><a class="nav-link red" href="shop.html">Blog</a></li>
+          <li class="nav-item"><a class="nav-link red" href="shop.html"><i class="fa-solid fa-ticket"></i> Best Discount</a></li>
+        </ul>
+
+        <!-- recently viewed -->
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle red" href="shop.html" data-bs-toggle="dropdown">Recently viewed</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item red" href="shop.html">Product A</a></li>
+              <li><a class="dropdown-item red" href="shop.html">Product B</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+<div class="container-fluid p-0 h-50">
+  <div class="row g-0">
+
+    <!-- Left: Carousel -->
+   <div class="col-8 p-0">
+  <div id="carouselExample" class="carousel slide w-100" style="height:543px;">
+    <div class="carousel-inner h-100">
+
+      <!-- Slide 1 -->
+      <div class="carousel-item active h-100">
+        <img src="img/slide2-demo1.jpg" class="d-block w-100 h-100" style="object-fit: cover; background-color: cadetblue;">
+        <div class="carousel-caption d-flex flex-column justify-content-center align-items-start h-100 text-start">
+          <p class="mb-2">Limited time offer *</p>
+          <h2 class="fw-bold">Up To 20%<br>Instant Camera</h2>
+          <h4>Fujifilm's</h4>
+          <button class="btn btn-light mt-3">SHOP NOW</button>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="carousel-item h-100">
+        <img src="img/slide1-demo1.jpg" class="d-block w-100 h-100" style="object-fit: cover; background-color: #eee;">
+        <div class="carousel-caption d-flex flex-column justify-content-center align-items-start h-100 text-start">
+          <p class="mb-2">Special Deal</p>
+          <h2 class="fw-bold">Save 30%<br>on Smart Watches</h2>
+          <h4>New arrivals</h4>
+          <button class="btn btn-dark mt-3">SHOP NOW</button>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="carousel-item h-100">
+        <img src="img/slide3-demo1.png" class="d-block w-100 h-100" style="object-fit: cover; background-color: #e35011;">
+        <div class="carousel-caption d-flex flex-column justify-content-center align-items-start h-100 text-start">
+          <p class="mb-2">New Collection</p>
+          <h2 class="fw-bold">Trendy Jackets<br>30% off</h2>
+          <h4>Winter 2025</h4>
+          <button class="btn btn-dark mt-3">SHOP NOW</button>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+<!-- Right: Cards -->
+<div class="col-4 d-flex flex-column p-0">
+  
+  <!-- Card 1 -->
+  <div class="card  flex-fill border-0">
+    <img src="img/banner1-demo1.jpg" class="card-img w-100 h-100" style="object-fit: cover;">
+    <div class="card-img-overlay d-flex flex-column justify-content-center align-items-start text-start">
+      <p class="mb-2">Black Friday</p>
+      <h5 class="card-title fw-bold">Big Sale  <br>  Eyeshadow</h5>
+      <p class="card-text">Over +100 items </p>
+      <button class="btn btn-light mt-2">SHOP NOW</button>
+    </div>
+  </div>
+
+  <!-- Card 2 -->
+  <div class="card  flex-fill border-0">
+    <img src="img/banner2-demo1.jpg" class="card-img w-100 h-100" style="object-fit: cover;">
+    <div class="card-img-overlay d-flex flex-column justify-content-center align-items-start text-start">
+      <p class="mb-2">NEW COLLECTION</p>
+      <h5 class="card-title fw-bold">Puffer Jacket  <br> 30% off</h5>
+      <p class="card-text">Best jacket in year.</p>
+      <button class="btn btn-dark mt-2">SHOP NOW</button>
+    </div>
+  </div>
+
+</div>
+
+  </div>
+</div>
+
+
+
+
+
+<!--  المميزات -->
+<div class="container text-center my-5">
+  <div class="row g-4">
+    <div class="col-md-3"> 
+         <div class="fs-2 mb-2"><i class="fa-solid fa-truck"></i></div>
+     <h6 class="fw-bold">Fast, Free Shipping</h6>
+      <p class="text-muted small">On order over $50</p>
+  </div>
+    <div class="col-md-3">
+      <div class="fs-2 mb-2"><i class="fa-solid fa-alarm-clock"></i></div>
+      <h6 class="fw-bold">Next Day Delivery</h6>
+        <p class="text-muted small">Free - spend over $99</p>
+    </div>
+    <div class="col-md-3">
+     <div class="fs-2 mb-2"><i class="fa-solid fa-dollar-sign"></i></div>
+    <h6 class="fw-bold">Low Price Guarantee</h6>
+    <p class="text-muted small">We offer competitive prices</p>
+    </div>
+    <div class="col-md-3">
+    <div class="fs-2 mb-2"><i class="fa-solid fa-thumbs-up"></i></div>
+    <h6 class="fw-bold">Quality Guarantee</h6>
+      <p class="text-muted small">We Guarantee Our Products</p>
+    </div>
+  </div>
+</div>
+
+
+<div class="container text-center my-5">
+  <div class="owl-carousel category-slider">
+    
+    <div class="item">
+      <div class="rounded-circle bg-light d-flex justify-content-center align-items-center p-4 m-auto" style="width:120px;height:120px;">
+        <img src="img/ch.jpg" class="img-fluid" >
+      </div>
+      <p class="mt-2 fw-semibold">Fashion</p>
+    </div>
+
+    <div class="item">
+      <div class="rounded-circle bg-light d-flex justify-content-center align-items-center p-4 m-auto" style="width:120px;height:120px;">
+        <img src="img/au.jpg" class="img-fluid" alt="">
+      </div>
+      <p class="mt-2 fw-semibold">Headphones</p>
+    </div>
+
+    <div class="item">
+      <div class="rounded-circle bg-light d-flex justify-content-center align-items-center p-4 m-auto" style="width:120px;height:120px;">
+        <img src="img/ch.jpg" class="img-fluid" alt="">
+      </div>
+      <p class="mt-2 fw-semibold">HandBags</p>
+    </div>
+
+    <div class="item">
+      <div class="rounded-circle bg-light d-flex justify-content-center align-items-center p-4 m-auto" style="width:120px;height:120px;">
+        <img src="img/au.jpg" class="img-fluid" alt="">
+      </div>
+      <p class="mt-2 fw-semibold">Smartphone</p>
+    </div>
+
+    <div class="item">
+      <div class="rounded-circle bg-light d-flex justify-content-center align-items-center p-4 m-auto" style="width:120px;height:120px;">
+        <img src="img/i.jpg" class="img-fluid" alt="">
+      </div>
+      <p class="mt-2 fw-semibold">Home & Decor</p>
+    </div>
+
+    <div class="item">
+      <div class="rounded-circle bg-light d-flex justify-content-center align-items-center p-4 m-auto" style="width:120px;height:120px;">
+        <img src="img/ch.jpg" class="img-fluid" alt="">
+      </div>
+      <p class="mt-2 fw-semibold">Makeup</p>
+    </div>
+
+    <div class="item">
+      <div class="rounded-circle bg-light d-flex justify-content-center align-items-center p-4 m-auto" style="width:120px;height:120px;">
+        <img src="img/au.jpg" class="img-fluid" alt="">
+      </div>
+      <p class="mt-2 fw-semibold">Headphones</p>
+    </div>
+
+    <div class="item">
+      <div class="rounded-circle bg-light d-flex justify-content-center align-items-center p-4 m-auto" style="width:120px;height:120px;">
+        <img src="img/au.jpg" class="img-fluid" alt="">
+      </div>
+      <p class="mt-2 fw-semibold">Headphones</p>
+    </div>
+
+  </div>
+</div>
+
+
+<div class="container text-center my-5">
+  <div class="border rounded p-2">
+    <p>Super discount for your <b>first purchase</b> 
+      <span class="text-danger fw-bold">COUPON25</span> 
+      Use discount code in the checkout!
+    </p>
+  </div>
+</div>
+
+
+
+<div class="container my-5">
+
+<!-- العداد -->
+<div class="d-flex justify-content-between align-items-center mb-4">
+  <h3 ></h3>
+  <div class="d-flex align-items-center">
+    <span class="me-2">Ends in</span>
+    <span id="hours" class="badge bg-dark rounded-pill fs-6 mx-1">00</span> :
+    <span id="minutes" class="badge bg-dark rounded-pill fs-6 mx-1">00</span> :
+    <span id="seconds" class="badge bg-dark rounded-pill fs-6 mx-1">00</span>
+    <a href="#" class="ms-3 text-decoration-none">See All Products</a>
+  </div>
+</div>
+
+
+<!-- best selling -->
+<div class="container my-5">
+
+  <!-- العنوان -->
+  <div class="row">
+    <div class="col-12">
+      <h3 class="fw-bold text-start mb-4">Flash Deals</h3>
+    </div>
+  </div>
+
+  <!-- الكروت -->
+
+<div class="owl-carousel ">
+
+  <div>  
+      <div class="card">
+        <img src="img/1.jpg" class="card-img-top">
+        <div class="card-body">
+          <a href="applewatch.html" class="text-decoration-none text-dark red"><p class="card-title ">Laptop Asus Vivobook I5 1355U, 8GB RAM, 512GB SSD</p></a>
+          <h4 class="card-text">$999</h4>
+        </div>
+      </div>
+   
+  </div>
+
+   <div>  
+      <div class="card">
+        <img src="img/2.jpg" class="card-img-top">
+           <span class="badge bg-danger position-absolute top-0 end-0 m-2 fs-6">
+        -3%
+      </span>
+        <div class="card-body">
+         <a href="applewatch.html" class="text-decoration-none text-dark red"> <p class="card-title">Apple Watch Series 9 GPS 45mm, Aluminum Case</p></a>
+          <h4 class="card-text">$890 <span class="text-decoration-line-through fs-6">$950</span></h4>
+        </div>
+      </div>
+   
+  </div>
+
+     
+   <div>  
+      <div class="card">
+        <img src="img/3.jpg" class="card-img-top">
+           <span class="badge bg-danger position-absolute top-0 end-0 m-2 fs-6">
+        -5%
+      </span>
+        <div class="card-body">
+         <a href="applewatch.html" class="text-decoration-none text-dark red"> <p class="card-title">TOOLS 34 Low Profile Hydraulic Trolley</p></a>
+          <h4 class="card-text">$767 <span class="text-decoration-line-through fs-6"> $837</span></h4>
+        </div>
+      </div>
+   
+  </div>
+
+     
+   <div>  
+      <div class="card">
+        <img src="img/4.jpg" class="card-img-top">
+           <span class="badge bg-danger position-absolute top-0 end-0 m-2 fs-6">
+        -10%
+      </span>
+        <div class="card-body">
+        <a href="applewatch.html" class="text-decoration-none text-dark red">  <p class="card-title ">14-inch Fasion Simplicity Quality Wall Clock</p></a>
+          <h4 class="card-text">$50 <span class="text-decoration-line-through fs-6"> $75</span></h4>
+        </div>
+      </div>
+   
+  </div>
+
+     
+   <div>  
+      <div class="card">
+        <img src="img/5.jpg" class="card-img-top">
+         <span class="badge bg-danger position-absolute top-0 end-0 m-2 fs-6">
+        -8%
+      </span>
+        <div class="card-body">
+      <a href="applewatch.html" class="text-decoration-none text-dark red">    <p class="card-title ">Translucent Compact Face Powder – 03 Medium, 0.22 oz</p></a>
+          <h4 class="card-text">$9 <span class="text-decoration-line-through fs-6"> $14</span></h4>
+        </div>
+      </div>
+   
+  </div>
+
+     
+   <div>  
+      <div class="card">
+        <img src="img/6.jpg" class="card-img-top">
+         <span class="badge bg-danger position-absolute top-0 end-0 m-2 fs-6">
+        -17%
+      </span>
+        <div class="card-body">
+      <a href="applewatch.html" class="text-decoration-none text-dark red">   <p class="card-title">Allure Luminous Intense Lipstick 0.15oz</p></a>
+          <h4 class="card-text">$20 <span class="text-decoration-line-through fs-6"> $24</span></h4>
+        </div>
+      </div>
+   
+  </div>
+
+     
+   <div>  
+      <div class="card">
+        <img src="img/7.jpg" class="card-img-top">
+         <a href="" class="text-decoration-none text-dark red"><p class="card-body ">Tonga on T-Shirt  Short Sleeve Tee</p></a>
+          <h4 class="card-text">$43</h4>
+        </div>
+      </div>
+   
+  </div>
+
+     
+     
+
+</div>
+</div>
+
+
+
+<div class="py-5">
+  <div class="container">
+    <div class="row g-3">
+
+<!-- البانر 1 -->
+<div class="col-md-3">
+  <div class="rounded position-relative overflow-hidden banner-right" style="height:300px;">
+    <img src="img/banner1.jpg" class="w-100 h-100" style="object-fit: cover;" alt="">
+    <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center text-white bg-dark bg-opacity-25">
+      <h5 class="fw-bold text-center">
+        SALE 10% OFF <br> TIRES MICHELIN
+      </h5>
+    </div>
+  </div>
+</div>
+
+
+      <!-- البانر 2 (أوسع) -->
+      <div class="col-md-6">
+        <div class="rounded position-relative overflow-hidden" style="height:300px;">
+          <img src="img/banner2.jpg" class="w-100 h-100" style="object-fit: cover;" alt="">
+          <div class="position-absolute top-0 start-0 w-100 h-100 d-flex flex-column align-items-center justify-content-center text-dark text-center bg-light bg-opacity-25">
+            <p class="text-uppercase fw-bold mb-1">New Collection</p>
+            <h4 class="fw-bold">Sofa Crafted in UK</h4>
+            <a href="shop.html" class="fw-bold text-decoration-underline">Shop now →</a>
+          </div>
+        </div>
+      </div>
+
+    
+<!-- البانر 3 -->
+<div class="col-md-3">
+  <div class="rounded position-relative overflow-hidden banner-left" style="height:300px;">
+    <img src="img/banner3.jpg" class="w-100 h-100" style="object-fit: cover;" alt="">
+    <div class="position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-end p-3 text-white bg-dark bg-opacity-25">
+      <h5 class="fw-bold">Steals under $25</h5>
+      <p class="fst-italic">Beauty</p>
+    </div>
+  </div>
+</div>
+
+    </div>
+  </div>
+</div>
+
+
+<div class="py-3">
+  <div class="container">
+<div class="row align-items-center g-0 ">
+      <div class="col-md-6">
+        <h3 class="fw-bold text-start mb-1">New arrivals</h3>
+      </div>
+      <div class="col-md-6">
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="shop.html">Fashion</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="shop.html">Phone & Tablet</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="shop.html">Home & Decor</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" >Beauty & Health</a>
+          </li>
+          
+        </ul>
+      </div>
+    
+
+    
+<!-- المنتج 1 -->
+<div class="col-md-4 col-sm-6">
+  <div class="card h-100 p-2 d-flex flex-row align-items-center product-card">
+    
+    <div class="position-relative me-3" style="width: 50%; overflow:hidden;">
+      <img src="img/fashion-5-700x700.jpg" 
+           class="img-fluid rounded product-img card-img-top">
+
+      <span class="badge bg-danger position-absolute top-0 start-0 m-2 fs-6">
+        HOT
+      </span>
+    </div>
+
+    
+    <div class="text-start d-flex flex-column justify-content-between" style="width: 50%;">
+      <div>
+        <a href="applewatch.html" class="text-decoration-none text-dark red">
+          <h6 class="mb-1 small">
+            Nike Air Max Unisex SYSTM Men Sneaker Shoes
+          </h6>
+        </a>
+        <p class="fw-bold mb-2 small">$148</p>
+      </div>
+
+
+      <div class="add-to-cart-btn">
+        <a href="applewatch.html" class="btn btn-dark w-100 btn-sm">+ Add to Cart</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<!-- المنتج 1 -->
+<div class="col-md-4 col-sm-6">
+  <div class="card h-100 p-2 d-flex flex-row align-items-center product-card">
+    
+    <!-- الصورة -->
+    <div class="position-relative me-3" style="width: 50%; overflow:hidden;">
+      <img src="img/fashion-5-700x700.jpg" 
+           class="img-fluid rounded product-img card-img-top">
+
+  
+    </div>
+
+    <!-- النص + الزرار -->
+    <div class="text-start d-flex flex-column justify-content-between" style="width: 50%;">
+      <div>
+        <a href="applewatch.html" class="text-decoration-none text-dark red">
+          <h6 class="mb-1 small">
+            Nike Air Max Unisex SYSTM Men Sneaker Shoes
+          </h6>
+        </a>
+        <p class="fw-bold mb-2 small">$148</p>
+      </div>
+      <!-- زرار Add to Cart -->
+      <div class="add-to-cart-btn">
+        <a href="applewatch.html" class="btn btn-dark w-100 btn-sm">+ Add to Cart</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- المنتج 1 -->
+<div class="col-md-4 col-sm-6">
+  <div class="card h-100 p-2 d-flex flex-row align-items-center product-card">
+    
+    
+    <div class="position-relative me-3" style="width: 50%; overflow:hidden;">
+      <img src="img/fashion-5-700x700.jpg" 
+           class="img-fluid rounded product-img card-img-top">
+
+     
+    </div>
+
+    
+    <div class="text-start d-flex flex-column justify-content-between" style="width: 50%;">
+      <div>
+        <a href="applewatch.html" class="text-decoration-none text-dark red">
+          <h6 class="mb-1 small">
+            Nike Air Max Unisex SYSTM Men Sneaker Shoes
+          </h6>
+        </a>
+        <p class="fw-bold mb-2 small">$148</p>
+      </div>
+      
+      <div class="add-to-cart-btn">
+        <a href="applewatch.html" class="btn btn-dark w-100 btn-sm">+ Add to Cart</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<!-- المنتج 1 -->
+<div class="col-md-4 col-sm-6">
+  <div class="card h-100 p-2 d-flex flex-row align-items-center product-card">
+    
+    
+    <div class="position-relative me-3" style="width: 50%; overflow:hidden;">
+      <img src="img/fashion-5-700x700.jpg" 
+           class="img-fluid rounded product-img card-img-top">
+
+    </div>
+
+    
+    <div class="text-start d-flex flex-column justify-content-between" style="width: 50%;">
+      <div>
+        <a href="applewatch.html" class="text-decoration-none text-dark red">
+          <h6 class="mb-1 small">
+            Nike Air Max Unisex SYSTM Men Sneaker Shoes
+          </h6>
+        </a>
+        <p class="fw-bold mb-2 small">$148</p>
+      </div>
+      
+      <div class="add-to-cart-btn">
+        <a href="applewatch.html" class="btn btn-dark w-100 btn-sm">+ Add to Cart</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+
+<!-- المنتج 1 -->
+<div class="col-md-4 col-sm-6">
+  <div class="card h-100 p-2 d-flex flex-row align-items-center product-card">
+    
+    
+    <div class="position-relative me-3" style="width: 50%; overflow:hidden;">
+      <img src="img/fashion-5-700x700.jpg" 
+           class="img-fluid rounded product-img card-img-top">
+
+     
+    </div>
+
+    
+    <div class="text-start d-flex flex-column justify-content-between" style="width: 50%;">
+      <div>
+        <a href="applewatch.html" class="text-decoration-none text-dark red">
+          <h6 class="mb-1 small">
+            Nike Air Max Unisex SYSTM Men Sneaker Shoes
+          </h6>
+        </a>
+        <p class="fw-bold mb-2 small">$148</p>
+      </div>
+      
+      <div class="add-to-cart-btn">
+        <a href="applewatch.html" class="btn btn-dark w-100 btn-sm">+ Add to Cart</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- المنتج 1 -->
+<div class="col-md-4 col-sm-6">
+  <div class="card h-100 p-2 d-flex flex-row align-items-center product-card">
+    
+    <!-- الصورة -->
+    <div class="position-relative me-3" style="width: 50%; overflow:hidden;">
+      <img src="img/fashion-5-700x700.jpg" 
+           class="img-fluid rounded product-img card-img-top">
+
+     
+    </div>
+
+    
+    <div class="text-start d-flex flex-column justify-content-between" style="width: 50%;">
+      <div>
+        <a href="applewatch.html" class="text-decoration-none text-dark red">
+          <h6 class="mb-1 small">
+            Nike Air Max Unisex SYSTM Men Sneaker Shoes
+          </h6>
+        </a>
+        <p class="fw-bold mb-2 small">$148</p>
+      </div>
+      
+      <div class="add-to-cart-btn">
+        <a href="applewatch.html" class="btn btn-dark w-100 btn-sm">+ Add to Cart</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+</div>
+</div>
+
+
+
+
+<div class="py-5 bg-light">
+  <div class="container position-relative">
+
+    <div class="row">
+
+      <!-- افلصورة الكبيرة -->
+      <div class="col-md-6 position-relative hoodie-box">
+        <img src="img/slide-hoodie-1 re .png" class="  main-img1 w-100" >
+
+        <span class="badge bg-danger position-absolute top-0 start-50 m-3 fs-5">
+          -30%
+        </span>
+         <div class="scroll-text position-absolute top-50 start-50 translate-middle  fw-bold fs-2">
+    Hoodie
+  </div>
+      </div>
+
+      <!-- عمود الكارت -->
+      <div class="col-md-6 d-flex justify-content-start">
+        <div class="card bg-white shadow p-4 rounded w-75 h-75 ">
+          <h3 class="fw-bold">Athletics Embroidered Relaxed Hoodie</h3>
+          <ul class="list-unstyled mt-5">
+            <li class="text-success"> 64% cotton, 36% polyester</li>
+            <li class="text-success"> Do not dry clean</li>
+            <li class="text-success"> Machine wash</li>
+          </ul>
+          <h4 class="fw-bold mt-3">
+            $89 <span class="text-muted text-decoration-line-through fs-5">$120</span>
+          </h4>
+          <div class="d-flex gap-2 my-3 ">
+         <img src="img/س.jpg" class=" thumb img-thumbnail" width="50" height="50" >
+          <img src="img/ء.jpg" class="thumb img-thumbnail" width="50" height="50" >
+           <img src="img/ف.jpg" class=" thumb img-thumbnail" width="50" height="50" >
+            <img src="img/ء.jpg" class="thumb img-thumbnail" width="50" height="50" >
+          </div>
+          <button class="btn btn-dark btn-lg w-100">BUY NOW</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+<!-- best selling -->
+<div class="container my-5">
+
+  <!-- العنوان -->
+  <div class="row">
+    <div class="col-12">
+      <h3 class="fw-bold text-start mb-4">Best Selling</h3>
+    </div>
+  </div>
+
+  <!-- الكروت -->
+
+<div class="owl-carousel ">
+
+ <div>  
+  <div class="card position-relative">
+    <img src="img/fashion-5-700x700.jpg" class="card-img-top">
+
+    <div class="card-body">
+      <a href="applewatch.html" class="text-decoration-none text-dark red">
+        <p class="card-title">Nike Air Max Unisex SYSTM Men Sneaker Shoes</p>
+      </a>
+      <h4 class="card-text">$148</h4>
+    </div>
+  </div>
+</div>
+
+
+   <div>  
+      <div class="card">
+        <img src="img/fashion-6-700x700.jpg" class="card-img-top">
+        <div class="card-body">
+      <a href="applewatch.html" class="text-decoration-none text-dark red">    <p class="card-title">LV Women Leather Accent Denim Mini Skirt</p></a>
+          <h4 class="card-text">$1,390</h4>
+        </div>
+      </div>
+   
+  </div>
+
+     
+   <div>  
+      <div class="card">
+        <img src="img/automotive-13-700x700.jpg" class="card-img-top">
+         <span class="badge bg-danger position-absolute top-0 end-0 m-3 fs-6">
+      -17%
+    </span>
+        <div class="card-body">
+        <a href="applewatch.html" class="text-decoration-none text-dark red">  <p class="card-title">High-Performance Carbon Fiber Wheels</p></a>
+          <h4 class="card-text"> $499 <span class="text-muted text-decoration-line-through fs-6">$599</span></h4>
+        </div>
+      </div>
+   
+  </div>
+
+     
+   <div>  
+      <div class="card">
+        <img src="img/3.jpg" class="card-img-top">
+<span class="badge bg-danger position-absolute top-0 end-0 m-3 fs-6">
+      -8%
+    </span>
+        <div class="card-body">
+      <a href="applewatch.html" class="text-decoration-none text-dark red">   <p class="card-title">TOOLS 34 Low Profile Hydraulic Trolley</p></a>
+          <h4 class="card-text">$767  <span class="text-muted text-decoration-line-through fs-6">$837</span></h4>
+        </div>
+      </div>
+   
+  </div>
+
+     
+   <div>  
+      <div class="card">
+        <img src="img/electronic-30-5-300x300.jpg" class="card-img-top">
+        <div class="card-body">
+         <a href="applewatch.html" class="text-decoration-none text-dark red"> <p class="card-title">Apple MacBook Air , 13.3 inch, 8GB RAM, 128GB SSD</p></a>
+          <h4 class="card-text">$572</h4>
+        </div>
+      </div>
+   
+  </div>
+
+     
+   <div>  
+      <div class="card">
+        <img src="img/electronic-14-2-700x700.jpg" class="card-img-top">
+                <span class="badge bg-danger position-absolute top-0 end-0 m-3 fs-6">
+      -6%
+    </span>
+        <div class="card-body">
+         <a href="applewatch.html" class="text-decoration-none text-dark red"> <p class="card-title">Apple Watch Series 9 GPS 45mm, Aluminum Case </p></a>
+          <h4 class="card-text">$890 <span class="text-muted text-decoration-line-through fs-6">$950</span></h4>
+        </div>
+      </div>
+   
+  </div>
+
+     
+   <div>  
+      <div class="card">
+        <img src="img/electronic-1-500x500.jpg" class="card-img-top">
+        <div class="card-body">
+         <a href="applewatch.html" class="text-decoration-none text-dark red"> <p class="card-title">MacBook Air, 16GB Unified Memory, 1TB SSD Storage</p></a>
+          <h4 class="card-text">$1,399</h4>
+        </div>
+      </div>
+   
+  </div>
+
+     
+     
+
+</div>
+</div>
+
+
+
+
+
+<!--From Our Blog
+-->
+<div  class="owl-carousel blog-slider">
+ >
+
+
+  <div>
+  <div class="card border border-0 m-2" >
+  <img src="img/blog-1.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+  <a href="applewatch.html" class="red text-decoration-none text-dark ">  <p class="card-title fs-6">
+Beauty & Health </p></a>
+    <p class="card-text">Some quick example text to build on the card title and make up</p>
+          <a href="shop.html" class="btn btn-outline-secondary">Read More</a>
+  </div>
+</div>
+</div>
+
+<div>
+<div class="card m-2 border border-0" >
+  <img src="img/blog-2.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+          <a href="shop.html" class="btn btn-outline-secondary">Read More</a>
+  </div>
+</div>
+</div>
+
+<div>
+<div class="card m-2 border border-0" >
+  <img src="img/blog-3.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+          <a href="shop.html" class="btn btn-outline-secondary">Read More</a>
+  </div>
+</div>
+</div>
+
+
+<div>
+  <div class="card border border-0 m-2">
+  <img src="img/blog-4.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+          <a href="shop.html" class="btn btn-outline-secondary">Read More</a>
+  </div>
+</div>
+</div>
+
+
+
+<div>
+  <div class="card border border-0 m-2" >
+  <img src="img/blog-5-1.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+          <a href="shop.html" class="btn btn-outline-secondary">Read More</a>
+  </div>
+</div>
+
+</div>
+
+<div>
+  <div class="card border border-0 m-2" >
+  <img src="img/blog-6.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+          <a href="shop.html" class="btn btn-outline-secondary">Read More</a>
+  </div>
+</div>
+
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+
+<!-- search-->
+
+
+
+<div class="d-flex flex-column justify-content-center align-items-center p-5 color bg-light " >
+
+  <h3 class="text-center mb-4">Looking for something else?</h3>
+
+  <form class="d-flex w-50" role="search">
+    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+    <button class="btn btn-outline-success" type="submit">Search</button>
+  </form>
+<div class="d-flex flex-row p-2">
+  <a href="shop.html" class="text-decoration-none link-light link-opacity-10-hover  p-2 border-end text-dark">smartphone </a>
+    <a href="shop.html" class="text-decoration-none link-light link-opacity-10-hover p-2 text-dark border-end">tablet </a>
+        <a href="shop.html" class="text-decoration-none link-light link-opacity-10-hover  p-2 text-dark border-end">controller </a>
+                <a href="shop.html" class="text-decoration-none link-light link-opacity-10-hover text-dark p-2 border-end ">furniture </a>
+        <a href="shop.html" class="text-decoration-none link-light link-opacity-10-hover text-dark p-2 border-end">laptop </a>
+        <a href="shop.html" class="text-decoration-none link-light link-opacity-10-hover  p-2 text-dark ">playstation </a>
+
+</div>
+
+
+<div class="d-flex flex-row p-2">
+  <a href="shop.html" class="text-decoration-none link-light link-opacity-10-hover p-2 border-end text-dark">womens fashion </a>
+    <a href="shop.html" class="text-decoration-none link-light link-opacity-10-hover p-2 border-end text-dark">home & decor </a>
+        <a href="shop.html" class="text-decoration-none link-light link-opacity-10-hover p-2 text-dark ">camera </a>
+                
+
+</div>
+</div>
+
+  
+<footer class="bg-dark text-light pt-5 ">
+  <div class="container-fluid">
+    <div class="row">
+      
+      <!-- Logo & Contact -->
+      <div class="col-md-3 mb-4 ">
+<img src="img/logo.png" class="w-25">     
+   <p class="mb-1"><i></i> 29 SE 2nd Ave, Miami<br> Florida 33131, United States</p>
+        <p class="mb-1"><i></i> info@example.com</p>
+       <a href="index.html" class="red text-decoration-none text-light"> <p class="fw-bold">(+92) 3942 7879</p></a>
+      </div>
+
+      <!-- Shopping -->
+      <div class="col-md-2 mb-4">
+        <h6 class="fw-bold">SHOPPING</h6>
+        <ul class="list-unstyled">
+         <li><a href="shop.html" class="text-decoration-none text-light red">Wishlist</a></li>
+       <li><a href="shop.html" class="text-decoration-none text-light red">Shop by Brand</a></li>
+         <li><a href="shop.html" class="text-decoration-none text-light red">Offers</a></li>
+        <li><a href="shop.html" class="text-decoration-none text-light red">Track Order</a></li>
+      <li><a href="shop.html" class="text-decoration-none text-light  red">Size Guide</a></li>
+        </ul>
+      </div>
+
+      <!-- Information -->
+      <div class="col-md-2 mb-4">
+        <h6 class="fw-bold">INFORMATION</h6>
+        <ul class="list-unstyled">
+          <li><a href="shop.html" class="text-decoration-none text-light red">Track Order</a></li>
+        <li><a href="shop.html" class="text-decoration-none text-light red">Shipping & Returns</a></li>
+         <li><a href="shop.html" class="text-decoration-none text-light red">About us</a></li>
+          <li><a href="shop.html" class="text-decoration-none text-light red">Help</a></li>
+         <li><a href="shop.html" class="text-decoration-none text-light red">Gift Cards</a></li>
+        </ul>
+      </div>
+
+      <!-- Account -->
+      <div class="col-md-2 mb-4">
+        <h6 class="fw-bold">ACCOUNT</h6>
+        <ul class="list-unstyled">
+          <li><a href="shop.html" class="text-decoration-none text-light red">Cart</a></li>
+        <li><a href="shop.html" class="text-decoration-none text-light red">My Account</a></li>
+         <li><a href="shop.html" class="text-decoration-none text-light red">My Orders</a></li>
+        <li><a href="shop.html" class="text-decoration-none text-light red">Wishlist</a></li>
+          <li><a href="shop.html" class="text-decoration-none text-light red">Affiliate Program</a></li>
+        </ul>
+      </div>
+
+    
+      <div class="col-md-3 mb-4">
+        <h6 class="fw-bold">Let’s keep in touch</h6>
+        <div class="input-group mb-3">
+          <input type="email" class="form-control" placeholder="Enter your email">
+          <button class="btn btn-outline-light" type="button"><i class="fa-regular fa-hand-point-up"></i></button>
+        </div>
+      </div>
+      </div>
+  
+
+ <div class="row text-center border-top border bottom-border-secondary pt-3 mt-3">
+      <div class="col-md-4 mb-3">
+        <p class="mb-0"> Didn't find what you were looking for? <a href="connect us.html" class="text-decoration-underline text-light  red">Contact Us</a></p>
+      </div>
+      <div class="col-md-4 mb-3">
+        <p class="mb-0"> How can we help you today? <a href="connect us.html" class="text-decoration-underline text-light  red">Help Center</a></p>
+    </div>
+      <div class="col-md-4 mb-3">      <p class="mb-0"> We’d love to hear what you think! <a href="connect us.html" class="text-decoration-none text-light  red">Give Feedback</a></p>
+      </div>
+    </div>
+
+    <!-- Copyright -->
+    <div class="row mt-3">
+      <div class="col-md-6">
+        <p class="small mb-0">Copyright © Merto. All Rights Reserved</p>
+      </div>
+      <div class="col-m-6 text-end">
+        <img src="img/Screenshot 2025-08-27 163524.png" alt="Visa" width="40" class="me-2">
+        <img src="img/Screenshot 2025-08-27 163524.png" alt="PayPal" width="40" class="me-2">
+        <img src="img/Screenshot 2025-08-27 163524.png" alt="Apple Pay" width="40" class="me-2">
+        <img src="img/Screenshot 2025-08-27 163524.png" alt="MasterCard" width="40" class="me-2">
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="js/script.js"></script>
+
+  </body>
+</html>
