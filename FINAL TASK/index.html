@@ -200,87 +200,97 @@ Summary scrolling</a></li>
     </div>
   </nav>
 
-
 <div class="container-fluid p-0 h-50">
   <div class="row g-0">
 
-    <!-- Left: Carousel -->
-   <div class="col-8 p-0">
-  <div id="carouselExample" class="carousel slide w-100" style="height:543px;">
-    <div class="carousel-inner h-100">
+    <!-- left -->
+    <div class="col-8 p-0">
+      <div id="carouselExample" class="carousel slide w-100" style="height:543px;" data-bs-ride="carousel" data-bs-interval="3000">
 
-      <!-- Slide 1 -->
-      <div class="carousel-item active h-100">
-        <img src="img/slide2-demo1.jpg" class="d-block w-100 h-100" style="object-fit: cover; background-color: cadetblue;">
-        <div class="carousel-caption d-flex flex-column justify-content-center align-items-start h-100 text-start">
-          <p class="mb-2">Limited time offer *</p>
-          <h2 class="fw-bold">Up To 20%<br>Instant Camera</h2>
-          <h4>Fujifilm's</h4>
-          <button class="btn btn-light mt-3">SHOP NOW</button>
+        <!-- Indicators -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+
+        <!-- slides -->
+        <div class="carousel-inner h-100">
+
+          <!-- slide 1 -->
+          <div class="carousel-item active h-100">
+            <img src="img/slide2-demo1.jpg" class="d-block w-100 h-100" style="object-fit: cover; background-color: cadetblue;">
+            <div class="carousel-caption d-flex flex-column justify-content-center align-items-start h-100 text-start">
+              <p class="mb-2">Limited time offer *</p>
+              <h2 class="fw-bold">Up To 20%<br>Instant Camera</h2>
+              <h4>Fujifilm's</h4>
+              <button class="btn btn-light mt-3">SHOP NOW</button>
+            </div>
+          </div>
+
+          <!-- side 2 -->
+          <div class="carousel-item h-100">
+            <img src="img/slide1-demo1.jpg" class="d-block w-100 h-100" style="object-fit: cover; background-color: #eee;">
+            <div class="carousel-caption d-flex flex-column justify-content-center align-items-start h-100 text-start">
+              <p class="mb-2">Special Deal</p>
+              <h2 class="fw-bold">Save 30%<br>on Smart Watches</h2>
+              <h4>New arrivals</h4>
+              <button class="btn btn-dark mt-3">SHOP NOW</button>
+            </div>
+          </div>
+
+          <!-- slide 3 -->
+          <div class="carousel-item h-100">
+            <img src="img/slide3-demo1.png" class="d-block w-100 h-100" style="object-fit: cover; background-color: #e35011;">
+            <div class="carousel-caption d-flex flex-column justify-content-center align-items-start h-100 text-start">
+              <p class="mb-2">New Collection</p>
+              <h2 class="fw-bold">Trendy Jackets<br>30% off</h2>
+              <h4>Winter 2025</h4>
+              <button class="btn btn-dark mt-3">SHOP NOW</button>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- cools -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+
+      </div>
+    </div>
+
+    <!-- righ cards -->
+    <div class="col-4 d-flex flex-column p-0">
+
+      <!-- Card 1 -->
+      <div class="card flex-fill border-0">
+        <img src="img/banner1-demo1.jpg" class="card-img w-100 h-100" style="object-fit: cover;">
+        <div class="card-img-overlay d-flex flex-column justify-content-center align-items-start text-start">
+          <p class="mb-2">Black Friday</p>
+          <h5 class="card-title fw-bold">Big Sale <br> Eyeshadow</h5>
+          <p class="card-text">Over +100 items</p>
+          <button class="btn btn-light mt-2">SHOP NOW</button>
         </div>
       </div>
 
-      <!-- Slide 2 -->
-      <div class="carousel-item h-100">
-        <img src="img/slide1-demo1.jpg" class="d-block w-100 h-100" style="object-fit: cover; background-color: #eee;">
-        <div class="carousel-caption d-flex flex-column justify-content-center align-items-start h-100 text-start">
-          <p class="mb-2">Special Deal</p>
-          <h2 class="fw-bold">Save 30%<br>on Smart Watches</h2>
-          <h4>New arrivals</h4>
-          <button class="btn btn-dark mt-3">SHOP NOW</button>
-        </div>
-      </div>
-
-      <!-- Slide 3 -->
-      <div class="carousel-item h-100">
-        <img src="img/slide3-demo1.png" class="d-block w-100 h-100" style="object-fit: cover; background-color: #e35011;">
-        <div class="carousel-caption d-flex flex-column justify-content-center align-items-start h-100 text-start">
-          <p class="mb-2">New Collection</p>
-          <h2 class="fw-bold">Trendy Jackets<br>30% off</h2>
-          <h4>Winter 2025</h4>
-          <button class="btn btn-dark mt-3">SHOP NOW</button>
+      <!-- Card 2 -->
+      <div class="card flex-fill border-0">
+        <img src="img/banner2-demo1.jpg" class="card-img w-100 h-100" style="object-fit: cover;">
+        <div class="card-img-overlay d-flex flex-column justify-content-center align-items-start text-start">
+          <p class="mb-2">NEW COLLECTION</p>
+          <h5 class="card-title fw-bold">Puffer Jacket <br> 30% off</h5>
+          <p class="card-text">Best jacket in year.</p>
+          <button class="btn btn-dark mt-2">SHOP NOW</button>
         </div>
       </div>
 
     </div>
-
-    <!-- Controls -->
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-</div>
-<!-- Right: Cards -->
-<div class="col-4 d-flex flex-column p-0">
-  
-  <!-- Card 1 -->
-  <div class="card  flex-fill border-0">
-    <img src="img/banner1-demo1.jpg" class="card-img w-100 h-100" style="object-fit: cover;">
-    <div class="card-img-overlay d-flex flex-column justify-content-center align-items-start text-start">
-      <p class="mb-2">Black Friday</p>
-      <h5 class="card-title fw-bold">Big Sale  <br>  Eyeshadow</h5>
-      <p class="card-text">Over +100 items </p>
-      <button class="btn btn-light mt-2">SHOP NOW</button>
-    </div>
-  </div>
-
-  <!-- Card 2 -->
-  <div class="card  flex-fill border-0">
-    <img src="img/banner2-demo1.jpg" class="card-img w-100 h-100" style="object-fit: cover;">
-    <div class="card-img-overlay d-flex flex-column justify-content-center align-items-start text-start">
-      <p class="mb-2">NEW COLLECTION</p>
-      <h5 class="card-title fw-bold">Puffer Jacket  <br> 30% off</h5>
-      <p class="card-text">Best jacket in year.</p>
-      <button class="btn btn-dark mt-2">SHOP NOW</button>
-    </div>
-  </div>
-
-</div>
 
   </div>
 </div>
@@ -1180,3 +1190,4 @@ integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIUR
 
   </body>
 </html>
+
