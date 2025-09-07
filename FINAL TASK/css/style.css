@@ -85,15 +85,15 @@ position: absolute;
 }
 
 .card:hover  {
-  transform: scale(1.1); /* تكبير الصورة بس */
+  transform: scale(1.1);  
 }
 
 
 .product-card {
   border: 1px solid #eee;
-  padding: 6px; /* أصغر */
+  padding: 6px; 
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  font-size: 0.85rem; /* تصغير النص */
+  font-size: 0.85rem; 
 }
 
 .product-card:hover {
@@ -242,13 +242,12 @@ footer a.red:hover {
 @media (min-width: 992px) {
   .navbar .dropdown:hover .dropdown-menu {
     display: block;
-    margin-top: 0; /* يظبط مكان القائمة */
+    margin-top: 0; 
   }
 }
 
 
 
-/* خلي البادج دائري */
 .hoodie-box .badge {
   width: 60px;
   height: 60px;
@@ -260,7 +259,7 @@ footer a.red:hover {
   animation: pulse 1.5s infinite;
 }
 
-/* أنيميشن نابض (pulse) */
+  (pulse) */
 @keyframes pulse {
   0% {
     transform: scale(1);
@@ -281,7 +280,7 @@ footer a.red:hover {
 
 
   input[type="checkbox"] {
-    appearance: none;         /* نشيل الشكل الافتراضي */
+    appearance: none;        
     -webkit-appearance: none;
     -moz-appearance: none;
     width: 18px;
@@ -292,14 +291,13 @@ footer a.red:hover {
     vertical-align: middle;
   }
 
-  /* الألوان الثابتة */
   .cb-black { background: black; border-color: black; }
   .cb-blue  { background: blue; border-color: blue; }
   .cb-red   { background: red; border-color: red; }
   .cb-white { background: white; border: 2px solid #999; }
 
-  /* لما يتعلم عليه */
   input[type="checkbox"]:checked {
     outline: 2px solid #333;   /* يدي إطار يوضح الاختيار */
     outline-offset: 2px;
   }
+
